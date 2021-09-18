@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proizvodi SYSTEM "validacija.dtd">
+<proizvodi xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="xsdval.xsd">
+    <proizvod>
+        <kategorija>Desktop racunari</kategorija>
+        <cena valuta="dinar"></cena>
+        <artikal></artikal>
+        <tagovi>
+            <tag></tag>
+        </tagovi>
+        <akcija popustCena="" datumIsteka="" ></akcija>
+    </proizvod>
+</proizvodi>

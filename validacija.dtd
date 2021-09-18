@@ -1,0 +1,12 @@
+<!ELEMENT proizvodi (proizvod+)>
+<!ELEMENT proizvod (kategorija,cena,brand,artikal,akcija)>
+<!ELEMENT kategorija(#PCDATA)>
+<!ELEMENT cena(#PCDATA)>
+<!ELEMENT artikal(#PCDATA)>
+<!ELEMENT tagovi(tag+)>
+<!ELEMENT tag(#PCDATA)>
+<!ELEMENT akcija(#PCDATA)>
+
+<!ATTLIST cena valuta (dinar|evro) "dinar">
+<!ATTLIST akcija popustCena (EMPTY|CDATA) #IMPLIED>
+<!ATTLIST akcija datumIsteka (EMPTY|CDATA) #IMPLIED>
